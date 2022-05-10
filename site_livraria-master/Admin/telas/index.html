@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <script src="https://kit.fontawesome.com/f0bad1112b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="cabecalho">
+        <div id="logo-nome">
+            <h1 id="titulo-principal">Livraria do Bem</h1>
+        </div>  
+        <div id="procurar">
+            <input type="text" id="dados-digitados" placeholder="Digite o que você procura...">
+            <button id="botao-lupa"><i class="fas fa-search"></i></button>
+        </div>
+        <nav id="cliente">
+            <i class="fas fa-user fa-1x" id="usuario"></i>
+            <a href="login.html" id="login"> Entre ou cadastre-se</a>
+        </nav>
+        <div id="outros">
+            <a id="botao-coracao"><i class="fas fa-heart fa-1x"></i></a>
+            <a id="botao-sacola"><i class="fas fa-shopping-bag fa-1x"></i></a>
+        </div>
+    </header>
+    <main id="segunda-parte">
+        <div id="slider">
+            <div id="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <div class="slide first">
+                    <img src="../assets/img/1.jpg" alt="livro">
+                </div>
+                <div class="slide">
+                    <img src="../assets/img/2.jpg" alt="livro">
+                </div>
+                <div class="slide">
+                    <img src="../assets/img/3.jpg" alt="livro">
+                </div>
+                <div id="navegacao-auto">
+                    <div id="auto-btn1"></div>
+                    <div id="auto-btn2"></div>
+                    <div id="auto-btn3"></div>
+                </div>
+            </div>
+            <div id="navegacao-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div><br>
+            <p>Aqui você encontra os melhores títulos da literatura mundial de forma sustentável</p>
+        </div>
+        <p id="destaques">Destaques</p>
+        <ul id="livros-disponiveis">
+            <li>
+                <img class="livros" src="../assets/img/livro-1.jpg" alt="livro">
+                <p>R$ 19,90</p>
+            </li>
+            <li>
+                <img class="livros" src="../assets/img/livro-2.jpg" alt="livro">
+                <p>R$ 39,90</p>
+            </li>
+            <li>
+                <img class="livros" src="../assets/img/livro-3.jpg" alt="livro">
+                <p>R$ 79,90</p>
+            </li>
+            <li>
+                <img class="livros" src="../assets/img/livro-4.jpg" alt="livro">
+                <p>R$ 9,90</p>
+            </li>
+            <li>
+                <img class="livros" src="../assets/img/livro-5.jpg" alt="livro">
+                <p>R$ 29,90</p>
+            </li>
+        </ul>
+        <div id="pagamento">
+            <i class="fas fa-credit-card fa-4x fa-pull-left" id="cartao"></i>
+            <p>Com o nosso cartão você não paga anuidade e tem as melhores condições de pagamento, além de participar de promoções exclusivas</p>
+        </div>
+        <div id="ler">
+            <ul>
+                <li>
+                    <p class="hashtag">#lerfazbem</p>
+                    <p class="hashtag">#sustentabilidade</p>  
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul id="links">
+                <li class="link-espaco">
+                    <p class="titulo-link">Sobre</p>
+                    <a class="link">Quem somos</a><br>
+                    <a class="link"> Trabalhe Conosco</a><br>
+                    <a class="link">Localização</a>
+                </li>
+                <li class="link-espaco">
+                    <p class="titulo-link">Atendimento</p>
+                    <a class="link">Contato</a>
+                </li>
+                <li class="link-espaco">
+                    <p class="titulo-link">Serviços</p>
+                    <a class="link">Livraria Pass</a>
+                </li>
+                <li class="link-espaco">
+                    <p class="titulo-link">Formas de Pagamento</p>
+                    <img id="formas-pagamento" src="../assets/img/formaspagamento.jpg" alt="formas de pagamento">
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer id="rodape">
+        <p>&copy; Livraria - 2022</p>
+    </footer>
+    <script src="../scripts/livraria.js"></script>
+</body>
+</html>

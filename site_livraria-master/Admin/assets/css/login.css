@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 10%;
+}
+
+#login{
+    padding: 40px;
+    background-color: hsl(240, 9%, 98%);
+    font: normal 10pt Arial;
+    text-align: left;
+    box-sizing: border-box;
+    border: 10px solid  hsl(240, 9%, 98%);
+    border-radius: 5%;
+    box-shadow: -1px 0px 20px 6px rgba(0,0,0,0.63);
+}
+
+#titulo{
+    color: #a4d4b4;
+    text-align: center;
+}
+
+.dados-digitados{
+    width: 100%;
+    padding: 10px 1px;
+    border: #4C6085;
+    border-radius: 4px;
+    background-color: rgb(232, 234, 240);
+}
+
+.link{
+    text-decoration: none;
+    color: #a4d4b4;
+}
+
+#botao{
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 1px;
+    border: none;
+    border-radius: 4px;
+    background-color: #a4d4b4;
+    color: white;
+}
